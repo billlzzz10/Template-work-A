@@ -1,0 +1,9 @@
+/* Plugin styling */
+.my-plugin-ribbon-class {
+  color: var(--text-accent);
+}
+
+/* Settings styles */
+.setting-item {
+  margin-top: 10px;
+}

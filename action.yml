@@ -1,0 +1,21 @@
+name: 'GitHub Action Template'
+description: 'A comprehensive template for creating GitHub Actions with Node.js, TypeScript support, and modern development practices'
+author: 'Your Name'
+inputs:
+  input-parameter:
+    description: 'Description of the input parameter - customize this for your action'
+    required: true
+    default: 'default value'
+  optional-parameter:
+    description: 'Description of an optional parameter - customize this for your action'
+    required: false
+    default: ''
+outputs:
+  output-parameter:
+    description: 'Description of the output parameter - customize this for your action'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  icon: 'activity'
+  color: 'blue'
